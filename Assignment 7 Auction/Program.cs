@@ -16,7 +16,9 @@ namespace Assignment_7_Auction
             Items[0].SetHighestBid(50000,123456);
             Console.WriteLine(Items[0].GetHighestBid());
             Console.WriteLine(Items[0].GetBidderID());
-            
+
+            PrintAllItems(Items);
+
             static void PrintAllItems(Item[] Items)
             {
                 for (int i = 0; i < Items.Length; i += 1)
